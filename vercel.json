@@ -1,12 +1,8 @@
 {
-  "frontend": {
-    "buildCommand": "cd frontend && npm install && npm run build",
-    "outputDirectory": "frontend/dist",
-    "devCommand": "cd frontend && npm run dev",
-    "installCommand": "cd frontend && npm install"
-  },
-  "backend": {
-    "buildCommand": "cd backend && npm install",
-    "devCommand": "cd backend && npm run dev"
-  }
+  "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "devCommand": "cd frontend && npm run dev",
+  "installCommand": "cd frontend && npm install",
+  "framework": "vite"
 }
