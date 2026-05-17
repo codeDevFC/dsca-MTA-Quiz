@@ -11,7 +11,12 @@
 "start": "cd backend && node api/index.js",
 "seed": "cd backend && node prisma/seed-all-questions.js"
 },
-"keywords": ["training", "assessment", "healthcare", "dsca"],
+"keywords": [
+"training",
+"assessment",
+"healthcare",
+"dsca"
+],
 "author": "DSCA Training",
 "license": "MIT"
 }
